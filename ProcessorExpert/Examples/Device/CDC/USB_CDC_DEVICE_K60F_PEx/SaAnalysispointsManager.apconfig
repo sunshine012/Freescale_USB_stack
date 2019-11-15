@@ -1,0 +1,14 @@
+<Analysispoints>
+	<Name>AnalysispointsManager</Name>
+	<ProjectPath>E:/USB_proccessor_expert_update/Test/20121119_Processor_expert/CDC_CLASS/DEVICE/USB_CDC_DEVICE_K60F_PEx/SaAnalysispointsManager.apconfig</ProjectPath>
+	<MaxNumberOfCores>1</MaxNumberOfCores>
+	<Comments>Analysispoints Manager</Comments>
+	<IgnoreAll>false</IgnoreAll>
+	<SpecializedManager>
+		<Name>ARMTracepointsManager</Name>
+		<Comments>ARM Tracepoints Manager</Comments>
+	</SpecializedManager>
+	<Core>
+		<Name>0</Name>
+	</Core>
+</Analysispoints>

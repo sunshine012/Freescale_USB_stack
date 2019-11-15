@@ -1,0 +1,14 @@
+<Analysispoints>
+	<Name>AnalysispointsManager</Name>
+	<ProjectPath>D:/WORK/USB_Group/K21_L2k/FI OTG PEx/MKL25Z128VLK4/USB_HID_OTG_MKL25Z128VLK4_PEx/SaAnalysispointsManager.apconfig</ProjectPath>
+	<MaxNumberOfCores>1</MaxNumberOfCores>
+	<Comments>Analysispoints Manager</Comments>
+	<IgnoreAll>false</IgnoreAll>
+	<SpecializedManager>
+		<Name>MtbTracepointsManager</Name>
+		<Comments>MTB Tracepoints Manager</Comments>
+	</SpecializedManager>
+	<Core>
+		<Name>0</Name>
+	</Core>
+</Analysispoints>

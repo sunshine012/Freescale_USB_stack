@@ -1,0 +1,14 @@
+<Analysispoints>
+	<Name>AnalysispointsManager</Name>
+	<ProjectPath>E:/L2K_PEx_MQX_Lite/VSS/PEx_MQXLite/Host/MK40DX256ZVLQ10/USB_HID_HOST_MK40DX256ZVLQ10_PEx/SaAnalysispointsManager.apconfig</ProjectPath>
+	<MaxNumberOfCores>1</MaxNumberOfCores>
+	<Comments>Analysispoints Manager</Comments>
+	<IgnoreAll>false</IgnoreAll>
+	<SpecializedManager>
+		<Name>ARMTracepointsManager</Name>
+		<Comments>ARM Tracepoints Manager</Comments>
+	</SpecializedManager>
+	<Core>
+		<Name>0</Name>
+	</Core>
+</Analysispoints>

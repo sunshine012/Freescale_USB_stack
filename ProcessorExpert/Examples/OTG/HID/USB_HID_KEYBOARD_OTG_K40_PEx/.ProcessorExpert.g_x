@@ -1,0 +1,118 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/iofiles"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd/inc"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code\PE_ProjectInfo.h" FileDate="2012-11-19, 13:46:01" FileAge="1353307561164" FileType="4411" />
+      <File Name="Generated_Code\usb_dciapi.h" FileDate="2012-11-19, 13:45:52" FileAge="1353307552280" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\hostapi.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555615" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_rcv.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556192" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbmsgq.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554618" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_rcv.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556317" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbmsgq.c" FileDate="2012-11-19, 13:45:54" FileAge="1353307554711" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_fs_main.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556706" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbsem.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554774" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_sm.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557018" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbsem.c" FileDate="2012-11-19, 13:45:54" FileAge="1353307554914" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\AS1.h" FileDate="2012-11-19, 13:45:58" FileAge="1353307558171" FileType="4411" CompNumb="12" />
+      <File Name="Generated_Code\host_cnfg.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555491" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\AS1.c" FileDate="2012-11-19, 13:45:58" FileAge="1353307558062" FileType="4411" CompNumb="12" />
+      <File Name="Generated_Code\usb_host_hid.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550363" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usb_host_hid.c" FileDate="2012-11-19, 13:45:50" FileAge="1353307550487" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usbprv_host.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554384" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_descriptor.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550628" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usb_otg.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557221" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\PE_Error.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550160" FileType="4411" />
+      <File Name="Generated_Code\usb_descriptor.c" FileDate="2012-11-19, 13:45:50" FileAge="1353307550737" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usb_otg.c" FileDate="2012-11-19, 13:45:57" FileAge="1353307557158" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\OTG_MAX3353_INT_PIN.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557579" FileType="4411" />
+      <File Name="Generated_Code\poll.h" FileDate="2012-11-19, 13:45:52" FileAge="1353307552623" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\types.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553776" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\psptypes.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553667" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\OTG_MAX3353_INT_PIN.c" FileDate="2012-11-19, 13:45:57" FileAge="1353307557501" FileType="4411" />
+      <File Name="Generated_Code\poll.c" FileDate="2012-11-19, 13:45:52" FileAge="1353307552732" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_common.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555568" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_hid.h" FileDate="2012-11-19, 13:45:51" FileAge="1353307551282" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\PE_LDD.h" FileDate="2012-11-19, 13:45:48" FileAge="1353307548430" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\host_common.c" FileDate="2012-11-19, 13:45:55" FileAge="1353307555693" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_host_hub_sm.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553277" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_sm_main.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556659" FileType="4411" CompNumb="61" />
+      <File Name="Project_Settings\Debugger\MK40DX256Z.mem" FileDate="2012-11-18, 13:39:19" FileAge="1353220759781" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\usb_hid.c" FileDate="2012-11-19, 13:45:51" FileAge="1353307551189" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\PE_LDD.c" FileDate="2012-11-19, 13:45:48" FileAge="1353307548508" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\usb_host_hub_sm.c" FileDate="2012-11-19, 13:45:53" FileAge="1353307553402" FileType="4411" CompNumb="61" />
+      <File Name="Documentation\ProcessorExpert_Settings.xml" FileDate="2012-11-19, 13:45:58" FileAge="1353307558686" FileType="3072" />
+      <File Name="Sources\ProcessorExpert.c" FileDate="2012-11-18, 20:12:27" FileAge="1353244347187" FileType="128" />
+      <File Name="Generated_Code\host_cnl.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555366" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_private.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557111" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_cnl.c" FileDate="2012-11-19, 13:45:55" FileAge="1353307555413" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\USB_LDD.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557813" FileType="4411" />
+      <File Name="Generated_Code\usb_framework.h" FileDate="2012-11-19, 13:45:51" FileAge="1353307551921" FileType="4411" CompNumb="61" />
+      <File Name="Documentation\ProcessorExpert_SIGNALS.txt" FileDate="2012-11-19, 13:45:58" FileAge="1353307558467" FileType="3072" />
+      <File Name="Generated_Code\USB_LDD.c" FileDate="2012-11-19, 13:45:57" FileAge="1353307557719" FileType="4411" />
+      <File Name="Generated_Code\usb_framework.c" FileDate="2012-11-19, 13:45:51" FileAge="1353307551797" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\Cpu.h" FileDate="2012-11-19, 13:45:48" FileAge="1353307548944" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\Cpu.c" FileDate="2012-11-19, 13:45:48" FileAge="1353307548757" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\usb_host_hub.h" FileDate="2012-11-19, 13:45:52" FileAge="1353307552872" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_driver.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555911" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_host_hub.c" FileDate="2012-11-19, 13:45:52" FileAge="1353307552950" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_driver.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556005" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_max3353.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556971" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_max3353.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556784" FileType="4411" CompNumb="61" />
+      <File Name="Documentation\ProcessorExpert.txt" FileDate="2012-11-18, 13:39:20" FileAge="1353220760484" FileType="3072" />
+      <File Name="Generated_Code\usb_devapi.h" FileDate="2012-11-19, 13:45:52" FileAge="1353307552482" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_shut.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556363" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\khci.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553527" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_otg_main.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556924" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_shut.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556395" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_snd.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556504" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\khci.c" FileDate="2012-11-19, 13:45:54" FileAge="1353307554462" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_class.h" FileDate="2012-11-19, 13:45:51" FileAge="1353307551391" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbprv.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554072" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_host_hub_prv.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553075" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_snd.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556582" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\IO_Map.h" FileDate="2012-11-19, 13:45:49" FileAge="1353307549069" FileType="4411" />
+      <File Name="Generated_Code\usb_class.c" FileDate="2012-11-19, 13:45:51" FileAge="1353307551532" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_dev_list.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555755" FileType="4411" CompNumb="61" />
+      <File Name="Project_Settings\Debugger\PK40X256.mem" FileDate="2012-11-18, 13:39:17" FileAge="1353220757203" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\PE_Types.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550285" FileType="4411" />
+      <File Name="Sources\device_driver_info.h" FileDate="2012-04-17, 15:38:20" FileAge="1334651900000" FileType="4411" />
+      <File Name="Generated_Code\host_dev_list.c" FileDate="2012-11-19, 13:45:55" FileAge="1353307555818" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_dci.h" FileDate="2012-11-19, 13:45:52" FileAge="1353307552186" FileType="4411" CompNumb="61" />
+      <File Name="Sources\device_driver_info.c" FileDate="2012-04-17, 15:38:28" FileAge="1334651908000" FileType="4411" />
+      <File Name="Generated_Code\usb_classes.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550893" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usb.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553901" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\PTC5.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557953" FileType="4411" CompNumb="13" />
+      <File Name="Generated_Code\usb_driver.c" FileDate="2012-11-19, 13:45:51" FileAge="1353307551641" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_dci.c" FileDate="2012-11-19, 13:45:52" FileAge="1353307552062" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usb_classes.c" FileDate="2012-11-19, 13:45:51" FileAge="1353307551033" FileType="4411" CompNumb="20" />
+      <File Name="Generated_Code\usb_desc.h" FileDate="2012-11-19, 13:45:53" FileAge="1353307553948" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\PTC5.c" FileDate="2012-11-19, 13:45:57" FileAge="1353307557860" FileType="4411" CompNumb="13" />
+      <File Name="Generated_Code\OTG_MAX3353.h" FileDate="2012-11-19, 13:45:57" FileAge="1353307557408" FileType="4411" />
+      <File Name="Sources\Events.h" FileDate="2012-03-14, 16:40:34" FileAge="1331718034000" FileType="16896" />
+      <File Name="Generated_Code\host_close.h" FileDate="2012-11-19, 13:45:55" FileAge="1353307555241" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbevent.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554509" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\OTG_MAX3353.c" FileDate="2012-11-19, 13:45:57" FileAge="1353307557330" FileType="4411" />
+      <File Name="Project_Settings\Linker_Files\ProcessorExpert.lcf" FileDate="2012-11-18, 13:39:19" FileAge="1353220759828" FileType="4" CompNumb="0" />
+      <File Name="Sources\Events.c" FileDate="2012-03-05, 15:17:58" FileAge="1330935478000" FileType="16896" />
+      <File Name="Generated_Code\host_close.c" FileDate="2012-11-19, 13:45:55" FileAge="1353307555304" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\usbevent.c" FileDate="2012-11-19, 13:45:54" FileAge="1353307554571" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_ch9.h" FileDate="2012-11-19, 13:45:54" FileAge="1353307554992" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_main.h" FileDate="2012-11-19, 13:45:56" FileAge="1353307556083" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\Vectors.c" FileDate="2012-11-19, 13:45:48" FileAge="1353307548243" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\host_ch9.c" FileDate="2012-11-19, 13:45:55" FileAge="1353307555070" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\host_main.c" FileDate="2012-11-19, 13:45:56" FileAge="1353307556130" FileType="4411" CompNumb="61" />
+      <File Name="Generated_Code\PE_Const.h" FileDate="2012-11-19, 13:45:50" FileAge="1353307550004" FileType="4411" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>31</CodeGenReference>
+</CodeGenerationInfo>

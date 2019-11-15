@@ -1,0 +1,14 @@
+<Analysispoints>
+	<Name>AnalysispointsManager</Name>
+	<ProjectPath>D:/WORK/USB_Group/PEx/USB_DEVICE_STACK_11.09.2012_19h17.PEupd_____Test/Copy of ProcessorExpert_1118/AUDIO_CLASS/Host/Update/USB_AUDIO_HOST_JF128_PEx/SaAnalysispointsManager.apconfig</ProjectPath>
+	<MaxNumberOfCores>1</MaxNumberOfCores>
+	<Comments>Analysispoints Manager</Comments>
+	<IgnoreAll>false</IgnoreAll>
+	<SpecializedManager>
+		<Name>Cfv1TracepointsManager</Name>
+		<Comments>Cfv1 Tracepoints Manager</Comments>
+	</SpecializedManager>
+	<Core>
+		<Name>0</Name>
+	</Core>
+</Analysispoints>

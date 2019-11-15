@@ -1,0 +1,14 @@
+<Analysispoints>
+	<Name>AnalysispointsManager</Name>
+	<ProjectPath>E:/L2K_PEx_MQX_Lite/Test/2013_01_02/Examples/L2K/MQX_Lite/USB_HID_HOST_MOUSE_MKL25Z128_PEx_MQX_Lite/SaAnalysispointsManager.apconfig</ProjectPath>
+	<MaxNumberOfCores>1</MaxNumberOfCores>
+	<Comments>Analysispoints Manager</Comments>
+	<IgnoreAll>false</IgnoreAll>
+	<SpecializedManager>
+		<Name>MtbTracepointsManager</Name>
+		<Comments>MTB Tracepoints Manager</Comments>
+	</SpecializedManager>
+	<Core>
+		<Name>0</Name>
+	</Core>
+</Analysispoints>

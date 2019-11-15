@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PE_PROJECT_SETTINGS_DOCUMENTATION>
+  <PE_product_version v="version 10.0 for Freescale Microcontrollers" />
+  <PE_core_version v="Processor Expert Version 0503" />
+  <CPU_Bean name="Cpu" type="MK60N512LQ100">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK60DN512ZVLQ10" />
+      <list name="Shared Internal properties" v="1">
+        <EmptySection_DummyValue />
+      </list>
+      <list name="Shared Clock settings" v="1">
+        <group name="Clock settings">
+          <group name="Internal oscillator">
+            <Slow_internal_reference_clock__kHz_ v="32.768000000000" />
+            <boolgroup name="Initialize slow trim value" v="no" />
+            <Fast_internal_reference_clock__MHz_ v="4" />
+            <boolgroup name="Initialize fast trim value" v="no" />
+          </group>
+          <boolgroup name="RTC oscillator" v="Disabled" />
+          <boolgroup name="System oscillator" v="Enabled">
+            <enumgroup name="Clock source" v="External reference clock">
+              <group name="Clock input pin">
+                <Pin_name v="PTA18/FTM0_FLT2/FTM_CLKIN0/EXTAL" />
+                <Pin_signal v="" />
+              </group>
+              <Clock_frequency__MHz_ v="50" />
+            </enumgroup>
+          </boolgroup>
+          <list name="Clock source settings" v="1">
+            <group name="Clock source setting 0">
+              <group name="Internal reference clock">
+                <MCGIRCLK_clock v="Enabled" />
+                <MCGIRCLK_in_stop v="Disabled" />
+                <MCGIRCLK_source v="Slow" />
+                <MCGIRCLK_clock__MHz_ v="0.032768000000" />
+              </group>
+              <group name="External reference clock">
+                <OSCERCLK_clock v="Enabled" />
+                <OSCERCLK_in_stop v="Disabled" />
+                <OSCERCLK_clock__MHz_ v="50" />
+                <ERCLK32K_clock_source v="System oscillator" />
+                <ERCLK32K__clock__kHz_ v="0" />
+              </group>
+              <group name="MCG settings">
+                <MCG_mode v="PEE" />
+                <MCG_output_clock v="PLL clock" />
+                <MCG_output__MHz_ v="48" />
+                <MCG_external_ref__clock_source v="System oscillator" />
+                <MCG_external_ref__clock__MHz_ v="50" />
+                <Clock_monitor v="Disabled" />
+                <group name="FLL settings">
+                  <FLL_module v="Disabled" />
+                  <FLL_output__MHz_ v="0" />
+                  <MCGFFCLK_clock__kHz_ v="24.414062500000" />
+                  <enumgroup name="Reference clock source" v="External clock">
+                    <Reference_clock_divider v="Auto select" />
+                  </enumgroup>
+                  <FLL_reference_clock__kHz_ v="48.828125000000" />
+                  <Multiplication_factor v="Auto select" />
+                </group>
+                <group name="PLL settings">
+                  <PLL_module v="Enabled" />
+                  <PLL_module_in_Stop v="Disabled" />
+                  <PLL_output__MHz_ v="48" />
+                  <Reference_clock_divider v="Auto select" />
+                  <PLL_reference_clock__MHz_ v="2" />
+                  <Multiplication_factor v="Auto select" />
+                  <Loss_of_lock_interrupt v="Disabled" />
+                </group>
+              </group>
+            </group>
+          </list>
+        </group>
+      </list>
+      <Initialization_priority v="minimal priority" />
+      <Watchdog_disable v="yes" />
+      <group name="Internal peripherals">
+        <list name="Shared NMI settings" v="1">
+          <boolgroup name="NMI pin" v="Enabled">
+            <NMI_Pin v="PTA4/FTM0_CH1/NMI_b/EZP_CS_b/TSI0_CH5" />
+            <NMI_Pin_signal v="" />
+          </boolgroup>
+        </list>
+        <list name="Shared Reset settings" v="1">
+          <group name="Reset">
+            <Reset_pin_filter__normal_mode_stop_mode_ v="Disabled" />
+            <Bus_clock_filter_value v="1" />
+            <Reset_Pin v="RESET_b" />
+            <Reset_Pin_signal v="" />
+          </group>
+        </list>
+        <list name="Shared JTAG settings" v="1">
+          <group name="Debug interface (JTAG)">
+            <enumgroup name="JTAG Mode" v="JTAG">
+              <boolgroup name="TDI" v="Enabled">
+                <TDI_Pin v="PTA1/UART0_RX/FTM0_CH6/JTAG_TDI/EZP_DI/TSI0_CH2" />
+                <TDI_Pin_signal v="" />
+              </boolgroup>
+              <boolgroup name="TDO" v="Enabled">
+                <TDO_Pin v="PTA2/UART0_TX/FTM0_CH7/JTAG_TDO/TRACE_SWO/EZP_DO/TSI0_CH3" />
+                <TDO_Pin_signal v="" />
+              </boolgroup>
+              <boolgroup name="TCK" v="Enabled">
+                <TCK_Pin v="PTA0/UART0_CTS_b/FTM0_CH5/JTAG_TCLK/SWD_CLK/EZP_CLK/TSI0_CH1" />
+                <TCK_Pin_signal v="" />
+              </boolgroup>
+              <boolgroup name="TMS" v="Enabled">
+                <TMS_Pin v="PTA3/UART0_RTS_b/FTM0_CH0/JTAG_TMS/SWD_DIO/TSI0_CH4" />
+                <TMS_Pin_signal v="" />
+              </boolgroup>
+              <boolgroup name="nTRST" v="Disabled" />
+            </enumgroup>
+          </group>
+        </list>
+        <list name="Shared Flash memory organization" v="1">
+          <group name="Flash memory organization">
+            <list name="Shared FLASH settings" v="1">
+              <EmptySection_DummyValue />
+            </list>
+            <list name="Flash blocks" v="2">
+              <group name="Flash block 0">
+                <Address v="0" />
+                <Size v="262144" />
+                <Write_unit_size v="4" />
+                <Erase_unit_size v="2048" />
+                <Protection_unit_size v="16384" />
+              </group>
+              <group name="Flash block 1">
+                <Address v="262144" />
+                <Size v="262144" />
+                <Write_unit_size v="4" />
+                <Erase_unit_size v="2048" />
+                <Protection_unit_size v="16384" />
+              </group>
+            </list>
+          </group>
+        </list>
+        <list name="Shared Flash Memory Controller settings" v="1">
+          <boolgroup name="Flexible memory controller" v="Disabled" />
+        </list>
+        <list name="Shared Flash Config settings" v="1">
+          <boolgroup name="Flash configuration field" v="Enabled">
+            <Flash_security v="Disabled" />
+            <Freescale_failure_analysis_access v="Enabled" />
+            <Mass_erase v="Enabled" />
+            <Backdoor_key_security v="Disabled" />
+            <Backdoor_key_0 v="255" />
+            <Backdoor_key_1 v="255" />
+            <Backdoor_key_2 v="255" />
+            <Backdoor_key_3 v="255" />
+            <Backdoor_key_4 v="255" />
+            <Backdoor_key_5 v="255" />
+            <Backdoor_key_6 v="255" />
+            <Backdoor_key_7 v="255" />
+            <P_Flash_protection v="4294967295" />
+            <D_Flash_protection v="255" />
+            <EERAM_protection v="255" />
+            <Low_power_boot v="Disabled" />
+            <EzPort_operation_at_boot v="Enabled" />
+          </boolgroup>
+        </list>
+        <list name="Shared Memory Protection Unit settings" v="1">
+          <boolgroup name="MPU settings" v="Enabled">
+            <boolgroup name="MPU module" v="Disabled" />
+          </boolgroup>
+        </list>
+        <list name="Shared Crossbar switch settings" v="1">
+          <boolgroup name="AXBS settings" v="Disabled" />
+        </list>
+        <list name="Shared Peripheral Bridge AIPS0 settings" v="1">
+          <boolgroup name="AIPS0 settings" v="Disabled" />
+        </list>
+        <list name="Shared Peripheral Bridge AIPS1 settings" v="1">
+          <boolgroup name="AIPS1 settings" v="Disabled" />
+        </list>
+        <list name="Shared Peripheral Bridge AIPS1 settings" v="1">
+          <boolgroup name="MCM settings" v="Disabled" />
+        </list>
+        <list name="Shared SCB settings" v="1">
+          <boolgroup name="System control block settings" v="Disabled" />
+        </list>
+        <list name="Shared Power Management Controller settings" v="1">
+          <group name="Power management controller">
+            <LVD_reset v="Enabled" />
+            <LVD_voltage_treshold v="Low" />
+            <LVW_voltage_treshold v="Low" />
+            <Traditional_RAM_power v="Not powered in VLLS2" />
+            <Bandgap_buffer v="Disabled" />
+            <group name="LVD interrupt">
+              <Interrupt v="INT_LVD_LVW" />
+              <Interrupt_request v="Disabled" />
+              <Interrupt_priority v="0 (Highest)" />
+              <LVD_interrupt v="Disabled" />
+              <LVW_interrupt v="Disabled" />
+            </group>
+          </group>
+        </list>
+        <list name="Shared ClockGate settings" v="1">
+          <group name="System Integration Module">
+            <boolgroup name="Clock gating control" v="Disabled" />
+          </group>
+        </list>
+      </group>
+      <list name="Shared CPU interrupts/resets" v="1">
+        <group name="CPU interrupts/resets">
+          <boolgroup name="NMI interrrupt" v="Enabled">
+            <Interrupt v="INT_NMI" />
+          </boolgroup>
+          <boolgroup name="Hard Fault" v="Disabled" />
+          <boolgroup name="Bus Fault" v="Disabled" />
+          <boolgroup name="Usage Fault" v="Disabled" />
+          <boolgroup name="Supervisor Call" v="Disabled" />
+          <boolgroup name="Pendable Service" v="Disabled" />
+          <boolgroup name="MCG Loss of lock" v="Disabled" />
+        </group>
+      </list>
+      <list name="Shared External Bus Controller settings" v="1">
+        <boolgroup name="External Bus" v="Disabled" />
+      </list>
+      <group name="Low power mode settings">
+        <list name="Shared Low Power Settings" v="1">
+          <group name="Allowed low power modes">
+            <Very_low_power_modes v="Not allowed" />
+            <Low_leakage_stop_mode v="Not allowed" />
+            <Very_low_leakage_stop_3_mode v="Not allowed" />
+            <Very_low_leakage_stop_2_mode v="Not allowed" />
+            <Very_low_leakage_stop_1_mode v="Not allowed" />
+          </group>
+        </list>
+        <list name="Shared LLWU settings" v="1">
+          <boolgroup name="LLWU settings" v="Disabled" />
+        </list>
+        <list name="Shared Low Power Settings" v="1">
+          <group name="Operation mode settings">
+            <group name="WAIT operation mode">
+              <Return_to_wait_after_ISR v="no" />
+            </group>
+            <group name="SLEEP operation mode">
+              <Return_to_stop_after_ISR v="no" />
+            </group>
+            <boolgroup name="STOP operation mode" v="Disabled" />
+          </group>
+        </list>
+      </group>
+      <list name="Clock configurations" v="1">
+        <group name="Clock configuration 0">
+          <boolgroup name="Very low power mode" v="Disabled" />
+          <enumgroup name="Clock source setting" v="configuration 0">
+            <MCG_mode v="PEE" />
+            <MCG_output__MHz_ v="48" />
+            <MCGIRCLK_clock__MHz_ v="0.032768" />
+            <OSCERCLK_clock__MHz_ v="50" />
+            <ERCLK32K__clock__kHz_ v="0" />
+            <MCGFFCLK__kHz_ v="24.4140625" />
+          </enumgroup>
+          <group name="System clocks">
+            <Core_clock_prescaler v="Auto select" />
+            <Core_clock v="48" />
+            <Bus_clock_prescaler v="Auto select" />
+            <Bus_clock v="48" />
+            <External_clock_prescaler v="Auto select" />
+            <External_bus_clock v="24" />
+            <Flash_clock_prescaler v="Auto select" />
+            <Flash_clock v="24" />
+            <enumgroup name="PLL/FLL clock selection" v="PLL clock">
+              <Clock_frequency__MHz_ v="48" />
+              <group name="USB clock settings">
+                <USB_clock_divider v="Auto select" />
+                <USB_clock_multiply v="Auto select" />
+                <USB_clock v="48" />
+              </group>
+            </enumgroup>
+          </group>
+        </group>
+      </list>
+    </Properties>
+    <Methods>
+      <list name="CPUCond" v="1">
+        <SetClockConfiguration v="don&amp;apos;t generate code" />
+        <GetClockConfiguration v="don&amp;apos;t generate code" />
+        <SetOperationMode v="don&amp;apos;t generate code" />
+        <EnableInt v="don&amp;apos;t generate code" />
+        <DisableInt v="don&amp;apos;t generate code" />
+        <GetLLSWakeUpFlags v="don&amp;apos;t generate code" />
+        <MCGAutoTrim v="don&amp;apos;t generate code" />
+        <VLPModeEnable v="don&amp;apos;t generate code" />
+        <VLPModeDisable v="don&amp;apos;t generate code" />
+      </list>
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+      <list name="EvntsShrdGrp" v="1">
+        <event name="OnReset" v="don&amp;apos;t generate code" />
+        <event name="OnNMIINT" v="generate code">
+          <Event_procedure_name v="Cpu_OnNMIINT0" />
+        </event>
+        <event name="OnHardFault" v="don&amp;apos;t generate code" />
+        <event name="OnBusFault" v="don&amp;apos;t generate code" />
+        <event name="OnUsageFault" v="don&amp;apos;t generate code" />
+        <event name="OnSupervisorCall" v="don&amp;apos;t generate code" />
+        <event name="OnPendableService" v="don&amp;apos;t generate code" />
+        <event name="OnLossOfLockINT" v="don&amp;apos;t generate code" />
+        <event name="OnLowVoltageINT" v="don&amp;apos;t generate code" />
+        <event name="OnLLSWakeUpINT" v="don&amp;apos;t generate code" />
+      </list>
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <enumgroup name="Unhandled vectors" v="One handler for all">
+        <Unhandled_int_code>
+          <StrgList><![CDATA[/* This code can be changed using the CPU component property "Build Options / Unhandled int code" */
+PE_DEBUGHALT();
+]]></StrgList>
+        </Unhandled_int_code>
+      </enumgroup>
+      <group name="User initialization">
+        <User_data_declarations>
+          <StrgList></StrgList>
+        </User_data_declarations>
+        <User_code_before_PE_initialization>
+          <StrgList></StrgList>
+        </User_code_before_PE_initialization>
+        <User_code_after_PE_initialization>
+          <StrgList></StrgList>
+        </User_code_after_PE_initialization>
+      </group>
+      <boolgroup name="Generate debugger files" v="yes">
+        <Generate_mem_file v="yes" />
+      </boolgroup>
+      <group name="Startup">
+        <Add_startup_file v="no" />
+      </group>
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Default_memory_for_interrupts v="INTERNAL FLASH" />
+        <Default_memory_for_code v="INTERNAL FLASH" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="5">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="0" />
+              <Size v="480" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Disabled" />
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="1040" />
+              <Size v="523248" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea3">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536805376" />
+              <Size v="65536" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea4">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data_20000000" />
+              <Qualifier v="RW" />
+              <Address v="536870912" />
+              <Size v="65536" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <Bean name="MQX1" type="MQXLite">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="MQX1" />
+      <MQX_Lite_version v="V1.0.1" />
+      <boolgroup name="Copy source files to project" v="yes">
+        <EmptySection_DummyValue />
+      </boolgroup>
+      <inhrbean type="TimerUnit_LDD">
+        <Enabled v="Y" />
+        <Template v="SystemTimer" />
+        <Properties>
+          <Component_name v="SystemTimer1" />
+          <Module_name v="SysTick" />
+          <Counter v="SYST_CVR" />
+          <Counter_direction v="Down" />
+          <Counter_width v="24 bits" />
+          <Value_type v="Optimal" />
+          <enumgroup name="Input clock source" v="Internal">
+            <Counter_frequency v="Auto select" />
+          </enumgroup>
+          <enumgroup name="Counter restart" v="On-match">
+            <Period_device v="SYST_RVR" />
+            <Period v="5 ms" />
+            <boolgroup name="Interrupt" v="Enabled">
+              <Interrupt v="INT_SysTick" />
+              <Interrupt_priority v="medium priority" />
+            </boolgroup>
+          </enumgroup>
+          <list name="Channel list" v="0">
+            <EmptySection_DummyValue />
+          </list>
+          <group name="Initialization">
+            <Enabled_in_init__code v="no" />
+            <list name="Auto Initialization" v="1">
+              <Auto_initialization v="no" />
+            </list>
+            <group name="Event mask">
+              <OnCounterRestart v="Enabled" />
+              <OnChannel0 v="Disabled" />
+              <OnChannel1 v="Disabled" />
+              <OnChannel2 v="Disabled" />
+              <OnChannel3 v="Disabled" />
+              <OnChannel4 v="Disabled" />
+              <OnChannel5 v="Disabled" />
+              <OnChannel6 v="Disabled" />
+              <OnChannel7 v="Disabled" />
+            </group>
+          </group>
+          <list name="CPU clock/configuration selection (included)" v="1">
+            <group name="CPU clock/configuration selection">
+              <Clock_configuration_0 v="This component enabled" />
+              <Clock_configuration_1 v="This component enabled" />
+              <Clock_configuration_2 v="This component enabled" />
+              <Clock_configuration_3 v="This component enabled" />
+              <Clock_configuration_4 v="This component enabled" />
+              <Clock_configuration_5 v="This component enabled" />
+              <Clock_configuration_6 v="This component enabled" />
+              <Clock_configuration_7 v="This component enabled" />
+            </group>
+          </list>
+        </Properties>
+        <Methods>
+          <Init v="generate code" />
+          <Deinit v="generate code" />
+          <Enable v="generate code" />
+          <Disable v="don&amp;apos;t generate code" />
+          <SetEventMask v="don&amp;apos;t generate code" />
+          <GetEventMask v="don&amp;apos;t generate code" />
+          <GetEventStatus v="don&amp;apos;t generate code" />
+          <SelectInputFrequency v="don&amp;apos;t generate code" />
+          <GetInputFrequencyReal v="don&amp;apos;t generate code" />
+          <GetInputFrequency v="generate code" />
+          <SetPeriodTicks v="generate code" />
+          <GetPeriodTicks v="generate code" />
+          <ResetCounter v="generate code" />
+          <GetCounterValue v="generate code" />
+          <SetOffsetTicks v="don&amp;apos;t generate code" />
+          <GetOffsetTicks v="don&amp;apos;t generate code" />
+          <GetCaptureValue v="don&amp;apos;t generate code" />
+          <SelectOutputAction v="don&amp;apos;t generate code" />
+          <SelectCaptureEdge v="don&amp;apos;t generate code" />
+          <ConnectPin v="don&amp;apos;t generate code" />
+          <SetOperationMode v="don&amp;apos;t generate code" />
+          <GetDriverState v="don&amp;apos;t generate code" />
+        </Methods>
+        <Events>
+          <Event_module_name v="Events" />
+          <event name="OnCounterRestart" v="generate code">
+            <Event_procedure_name v="SystemTimer1_OnCounterRestart" />
+          </event>
+          <event name="OnChannel0" v="don&amp;apos;t generate code" />
+          <event name="OnChannel1" v="don&amp;apos;t generate code" />
+          <event name="OnChannel2" v="don&amp;apos;t generate code" />
+          <event name="OnChannel3" v="don&amp;apos;t generate code" />
+          <event name="OnChannel4" v="don&amp;apos;t generate code" />
+          <event name="OnChannel5" v="don&amp;apos;t generate code" />
+          <event name="OnChannel6" v="don&amp;apos;t generate code" />
+          <event name="OnChannel7" v="don&amp;apos;t generate code" />
+        </Events>
+      </inhrbean>
+      <list name="Task Template List" v="1">
+        <boolgroup name="Task1" v="Enabled">
+          <inhrbean type="MQXLite_task">
+            <Enabled v="Y" />
+            <Template v="Task" />
+            <Properties>
+              <Name v="usb" />
+              <Entry_point_function v="usb_task" />
+              <Stack_size v="1024" />
+              <Priority v="9" />
+              <Creation_parameter v="0" />
+              <group name="Attributes">
+                <MQX_AUTO_START_TASK v="Enabled" />
+                <MQX_FLOATING_POINT_TASK v="Disabled" />
+              </group>
+            </Properties>
+            <Methods>
+              <EmptySection_DummyValue />
+            </Methods>
+            <Events>
+              <Event_module_name v="mqx_tasks" />
+              <event name="Task" v="generate code">
+                <Event_procedure_name v="usb_task" />
+              </event>
+            </Events>
+          </inhrbean>
+        </boolgroup>
+      </list>
+      <group name="Configuration parameters">
+        <group name="Components">
+          <Lightweight_Semaphores v="yes" />
+          <Lightweight_Events v="no" />
+          <Lightweight_Message_Queues v="no" />
+          <Mutexes v="no" />
+          <Lightweight_Timer v="no" />
+          <Kernel_loging v="no" />
+        </group>
+        <group name="Interrupts">
+          <Interrupt_stack_size v="256" />
+        </group>
+        <group name="Idle Task">
+          <Use_Idle_Task v="yes" />
+          <Sleep_in_idle v="no" />
+        </group>
+        <group name="User settings">
+          <Definitons>
+            <StrgList><![CDATA[/* Additional settings can be defined in the property User Definitions > Definitions of the MQXLite RTOS component */
+]]></StrgList>
+          </Definitons>
+        </group>
+      </group>
+      <boolgroup name="Manage allocated interrupts" v="Automatically" />
+      <group name="MQX functions">
+        <group name="Critical section">
+          <boolgroup name="User function for entering critical section" v="no" />
+          <boolgroup name="User function for exiting critical section" v="no" />
+        </group>
+      </group>
+    </Properties>
+    <Methods>
+      <_int_default_isr v="generate code" />
+      <_int_disable v="generate code" />
+      <_int_enable v="generate code" />
+      <_int_exception_isr v="generate code" />
+      <_int_get_default_isr v="generate code" />
+      <_int_get_exception_handler v="generate code" />
+      <_int_get_isr v="generate code" />
+      <_int_get_isr_depth v="generate code" />
+      <_int_get_isr_data v="generate code" />
+      <_int_get_kernel_isr v="generate code" />
+      <_int_get_previous_vector_table v="generate code" />
+      <_int_get_vector_table v="generate code" />
+      <_int_install_default_isr v="generate code" />
+      <_int_install_kernel_isr v="generate code" />
+      <_int_install_isr v="generate code" />
+      <_int_install_exception_isr v="generate code" />
+      <_int_install_unexpected_isr v="generate code" />
+      <_int_kernel_isr v="generate code" />
+      <_int_set_exception_handler v="generate code" />
+      <_int_set_isr_data v="generate code" />
+      <_int_set_vector_table v="generate code" />
+      <_int_unexpected_isr v="generate code" />
+      <_klog_create_at v="generate code" />
+      <_klog_get_interrupt_stack_usage v="generate code" />
+      <_klog_get_task_stack_usage v="generate code" />
+      <_klog_control v="generate code" />
+      <_klog_disable_logging_task v="generate code" />
+      <_klog_display v="generate code" />
+      <_klog_enable_logging_task v="generate code" />
+      <_klog_show_stack_usage v="generate code" />
+      <_lwsem_create v="generate code" />
+      <_lwsem_destroy v="generate code" />
+      <_lwsem_poll v="generate code" />
+      <_lwsem_post v="generate code" />
+      <_lwsem_test v="generate code" />
+      <_lwsem_wait v="generate code" />
+      <_lwsem_wait_ticks v="generate code" />
+      <_lwsem_wait_for v="generate code" />
+      <_lwsem_wait_until v="generate code" />
+      <_mem_zero v="generate code" />
+      <_mem_test_and_set v="generate code" />
+      <_mqx_exit v="generate code" />
+      <_mqx_fatal_error v="generate code" />
+      <_mqx_get_counter v="generate code" />
+      <_mqx_get_cpu_type v="generate code" />
+      <_mqx_get_initialization v="generate code" />
+      <_mqx_get_kernel_data v="generate code" />
+      <_mqx_get_exit_handler v="generate code" />
+      <_mqx_get_system_task_id v="generate code" />
+      <_mqx_get_tad_data v="generate code" />
+      <_mqx_idle_task v="generate code" />
+      <_mqx_set_cpu_type v="generate code" />
+      <_mqx_set_exit_handler v="generate code" />
+      <_sched_get_max_priority v="generate code" />
+      <_sched_get_min_priority v="generate code" />
+      <_sched_yield v="generate code" />
+      <_task_abort v="generate code" />
+      <_task_block v="generate code" />
+      <_task_check_stack v="generate code" />
+      <_task_create_at v="generate code" />
+      <_task_destroy v="generate code" />
+      <_task_disable_fp v="generate code" />
+      <_task_enable_fp v="generate code" />
+      <_task_get_creator v="generate code" />
+      <_task_get_environment v="generate code" />
+      <_task_get_exception_handler v="generate code" />
+      <_task_get_error v="generate code" />
+      <_task_get_error_ptr v="generate code" />
+      <_task_get_exit_handler v="generate code" />
+      <_task_get_id_from_name v="generate code" />
+      <_task_get_index_from_id v="generate code" />
+      <_task_get_parameter v="generate code" />
+      <_task_get_parameter_for v="generate code" />
+      <_task_get_processor v="generate code" />
+      <_task_get_priority v="generate code" />
+      <_task_get_td v="generate code" />
+      <_task_get_template_index v="generate code" />
+      <_task_ready v="generate code" />
+      <_task_restart v="generate code" />
+      <_task_set_environment v="generate code" />
+      <_task_set_error v="generate code" />
+      <_task_set_exception_handler v="generate code" />
+      <_task_set_exit_handler v="generate code" />
+      <_task_set_parameter v="generate code" />
+      <_task_set_parameter_for v="generate code" />
+      <_task_set_priority v="generate code" />
+      <_task_stop_preemption v="generate code" />
+      <_task_start_preemption v="generate code" />
+      <_taskq_create v="generate code" />
+      <_taskq_destroy v="generate code" />
+      <_taskq_resume v="generate code" />
+      <_taskq_suspend v="generate code" />
+      <_taskq_suspend_task v="generate code" />
+      <_taskq_test v="generate code" />
+      <_taskq_get_value v="generate code" />
+      <_time_delay_ticks v="generate code" />
+      <_time_diff_ticks v="generate code" />
+      <_time_get_elapsed_ticks v="generate code" />
+      <_time_get_hwticks v="generate code" />
+      <_time_get_hwticks_per_tick v="generate code" />
+      <_time_get_ticks v="generate code" />
+      <_time_get_ticks_per_sec v="generate code" />
+      <_time_init_ticks v="generate code" />
+      <_time_notify_kernel v="generate code" />
+      <_time_set_hwtick_function v="generate code" />
+      <_time_set_hwticks_per_tick v="generate code" />
+      <_time_set_resolution v="generate code" />
+      <_time_set_ticks v="generate code" />
+      <_time_set_ticks_per_sec v="generate code" />
+      <_time_set_timer_vector v="generate code" />
+      <_lwevent_create v="generate code" />
+      <_lwevent_destroy v="generate code" />
+      <_lwevent_set v="generate code" />
+      <_lwevent_set_auto_clear v="generate code" />
+      <_lwevent_clear v="generate code" />
+      <_lwevent_wait_for v="generate code" />
+      <_lwevent_wait_ticks v="generate code" />
+      <_lwevent_wait_until v="generate code" />
+      <_lwevent_get_signalled v="generate code" />
+      <_lwevent_test v="generate code" />
+      <_mutatr_destroy v="generate code" />
+      <_mutatr_get_priority_ceiling v="generate code" />
+      <_mutatr_get_sched_protocol v="generate code" />
+      <_mutatr_get_spin_limit v="generate code" />
+      <_mutatr_get_wait_protocol v="generate code" />
+      <_mutatr_set_priority_ceiling v="generate code" />
+      <_mutatr_set_sched_protocol v="generate code" />
+      <_mutatr_set_spin_limit v="generate code" />
+      <_mutatr_set_wait_protocol v="generate code" />
+      <_mutatr_init v="generate code" />
+      <_mutex_create_component v="generate code" />
+      <_mutex_destroy v="generate code" />
+      <_mutex_get_priority_ceiling v="generate code" />
+      <_mutex_get_wait_count v="generate code" />
+      <_mutex_init v="generate code" />
+      <_mutex_set_priority_ceiling v="generate code" />
+      <_mutex_test v="generate code" />
+      <_mutex_unlock v="generate code" />
+      <_mutex_try_lock v="generate code" />
+      <_lwlog_calculate_size v="generate code" />
+      <_lwlog_create_at v="generate code" />
+      <_lwlog_create_component v="generate code" />
+      <_lwlog_destroy v="generate code" />
+      <_lwlog_disable v="generate code" />
+      <_lwlog_enable v="generate code" />
+      <_lwlog_read v="generate code" />
+      <_lwlog_reset v="generate code" />
+      <_lwlog_test v="generate code" />
+      <_lwlog_write v="generate code" />
+      <_lwmsgq_init v="generate code" />
+      <_lwmsgq_send v="generate code" />
+      <_lwmsgq_receive v="generate code" />
+      <_lwtimer_add_timer_to_queue v="generate code" />
+      <_lwtimer_cancel_period v="generate code" />
+      <_lwtimer_cancel_timer v="generate code" />
+      <_lwtimer_create_periodic_queue v="generate code" />
+      <_lwtimer_test v="generate code" />
+      <_usr_lwevent_create v="generate code" />
+      <_usr_lwevent_destroy v="generate code" />
+      <_usr_lwevent_set_auto_clear v="generate code" />
+      <_usr_lwevent_set v="generate code" />
+      <_usr_lwevent_clear v="generate code" />
+      <_usr_lwevent_wait_for v="generate code" />
+      <_usr_lwevent_wait_ticks v="generate code" />
+      <_usr_lwevent_wait_until v="generate code" />
+      <_usr_lwevent_get_signalled v="generate code" />
+      <_usr_lwsem_create v="generate code" />
+      <_usr_lwsem_destroy v="generate code" />
+      <_usr_lwsem_poll v="generate code" />
+      <_usr_lwsem_post v="generate code" />
+      <_usr_lwsem_wait v="generate code" />
+      <_usr_lwsem_wait_ticks v="generate code" />
+      <_usr_lwsem_wait_for v="generate code" />
+      <_usr_lwsem_wait_until v="generate code" />
+      <_usr_task_create v="generate code" />
+      <_usr_task_destroy v="generate code" />
+      <_usr_task_abort v="generate code" />
+      <_usr_task_set_error v="generate code" />
+      <_usr_task_get_td v="generate code" />
+      <_usr_task_ready v="generate code" />
+      <_usr_time_delay v="generate code" />
+      <_usr_time_delay_ticks v="generate code" />
+      <_usr_time_get_elapsed_ticks v="generate code" />
+      <_usr_lwmsgq_init v="generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="usb_device" type="USB_DEVICE_STACK">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="usb_device" />
+      <inhrbean type="USB_LDD">
+        <Enabled v="Y" />
+        <Template v="USB_LDD" />
+        <Properties>
+          <Component_name v="USB_LDD" />
+          <USB_module__SIE_ v="USB0" />
+          <Input_clock_frequency__MHz_ v="48 MHz" />
+          <boolgroup name="Interrupt service/event" v="Enabled">
+            <Interrupt v="INT_USB0" />
+            <Interrupt_priority v="medium priority" />
+          </boolgroup>
+          <enumgroup name="Mode" v="DEVICE">
+            <enumgroup name="Transceiver type" v="Internal">
+              <Transceiver_module v="USB0_FS" />
+              <Transceiver_weak_pull_downs v="Enabled" />
+              <USB_revision v="USB 2.0" />
+              <Device_data_rate v="Full speed" />
+              <group name="Pin/signal setting">
+                <boolgroup name="Clock pin" v="Disabled" />
+                <group name="USB data pins">
+                  <group name="Data plus">
+                    <Pin v="USB0_DP" />
+                    <Pin_signal v="" />
+                  </group>
+                  <group name="Data minus">
+                    <Pin v="USB0_DM" />
+                    <Pin_signal v="" />
+                  </group>
+                </group>
+                <group name="VBUS pins">
+                  <boolgroup name="VBUS detect" v="Disabled" />
+                </group>
+                <group name="Pullup/Pulldown pins">
+                  <boolgroup name="DP pullup" v="Enabled">
+                    <Pin v="USB0_Internal_DP_PU" />
+                  </boolgroup>
+                  <boolgroup name="DM pullup" v="Disabled" />
+                </group>
+              </group>
+            </enumgroup>
+            <group name="Device mode setting">
+              <list name="EP list" v="16">
+                <boolgroup name="EP 0" v="Enabled">
+                  <boolgroup name="Control transfer" v="Enabled">
+                    <Maximum_packet_size v="8" />
+                    <Max__queue_size v="1" />
+                  </boolgroup>
+                </boolgroup>
+                <boolgroup name="EP 1" v="Enabled">
+                  <boolgroup name="Control transfer" v="Disabled" />
+                  <boolgroup name="Bulk OUT transfer" v="Disabled" />
+                  <boolgroup name="Bulk IN transfer" v="Enabled">
+                    <Max__packet_size v="16" />
+                    <Max__queue_size v="1" />
+                  </boolgroup>
+                  <boolgroup name="Interrupt OUT transfer" v="Disabled" />
+                  <boolgroup name="Interrupt IN transfer" v="Disabled" />
+                  <boolgroup name="Isochronous OUT  transfer" v="Disabled" />
+                  <boolgroup name="Isochronous IN  transfer" v="Disabled" />
+                </boolgroup>
+                <boolgroup name="EP 2" v="Enabled">
+                  <boolgroup name="Control transfer" v="Disabled" />
+                  <boolgroup name="Bulk OUT transfer" v="Enabled">
+                    <Max__packet_size v="16" />
+                    <Max__queue_size v="1" />
+                  </boolgroup>
+                  <boolgroup name="Bulk IN transfer" v="Disabled" />
+                  <boolgroup name="Interrupt OUT transfer" v="Disabled" />
+                  <boolgroup name="Interrupt IN transfer" v="Disabled" />
+                  <boolgroup name="Isochronous OUT  transfer" v="Disabled" />
+                  <boolgroup name="Isochronous IN  transfer" v="Disabled" />
+                </boolgroup>
+                <boolgroup name="EP 3" v="Enabled">
+                  <boolgroup name="Control transfer" v="Disabled" />
+                  <boolgroup name="Bulk OUT transfer" v="Disabled" />
+                  <boolgroup name="Bulk IN transfer" v="Disabled" />
+                  <boolgroup name="Interrupt OUT transfer" v="Disabled" />
+                  <boolgroup name="Interrupt IN transfer" v="Enabled">
+                    <Max__packet_size v="16" />
+                    <Max__queue_size v="1" />
+                  </boolgroup>
+                  <boolgroup name="Isochronous OUT  transfer" v="Disabled" />
+                  <boolgroup name="Isochronous IN  transfer" v="Disabled" />
+                </boolgroup>
+                <boolgroup name="EP 4" v="Disabled" />
+                <boolgroup name="EP 5" v="Disabled" />
+                <boolgroup name="EP 6" v="Disabled" />
+                <boolgroup name="EP 7" v="Disabled" />
+                <boolgroup name="EP 8" v="Disabled" />
+                <boolgroup name="EP 9" v="Disabled" />
+                <boolgroup name="EP 10" v="Disabled" />
+                <boolgroup name="EP 11" v="Disabled" />
+                <boolgroup name="EP 12" v="Disabled" />
+                <boolgroup name="EP 13" v="Disabled" />
+                <boolgroup name="EP 14" v="Disabled" />
+                <boolgroup name="EP 15" v="Disabled" />
+              </list>
+            </group>
+            <group name="Initialization">
+              <Enabled_in_init__code v="no" />
+              <list name="Auto Initialization" v="1">
+                <Auto_initialization v="no" />
+              </list>
+              <group name="Event mask">
+                <OnDeviceReset v="Enabled" />
+                <OnDeviceSpeedDetect v="Enabled" />
+                <OnDeviceSuspend v="Enabled" />
+                <OnDeviceResume v="Enabled" />
+                <OnDeviceSetupPacket v="Enabled" />
+                <OnDeviceSof v="Enabled" />
+                <OnDeviceError v="Enabled" />
+                <OnDevice1msTimer v="Enabled" />
+                <OnSignalChange v="Enabled" />
+              </group>
+            </group>
+          </enumgroup>
+          <list name="CPU clock/configuration selection (included)" v="1">
+            <group name="CPU clock/configuration selection">
+              <Clock_configuration_0 v="This component enabled" />
+              <Clock_configuration_1 v="This component enabled" />
+              <Clock_configuration_2 v="This component enabled" />
+              <Clock_configuration_3 v="This component enabled" />
+              <Clock_configuration_4 v="This component enabled" />
+              <Clock_configuration_5 v="This component enabled" />
+              <Clock_configuration_6 v="This component enabled" />
+              <Clock_configuration_7 v="This component enabled" />
+            </group>
+          </list>
+        </Properties>
+        <Methods>
+          <Init v="generate code" />
+          <Deinit v="generate code" />
+          <SetEventMask v="don&amp;apos;t generate code" />
+          <GetEventMask v="don&amp;apos;t generate code" />
+          <Enable v="generate code" />
+          <Disable v="generate code" />
+          <DeviceGetUsbStatus v="generate code" />
+          <DeviceSetUsbStatus v="generate code" />
+          <DeviceSetAddress v="generate code" />
+          <DeviceAssertResume v="generate code" />
+          <DeviceInitEndpoint v="generate code" />
+          <DeviceDeinitEndpoint v="generate code" />
+          <DeviceStallEndpoint v="generate code" />
+          <DeviceUnstallEndpoint v="generate code" />
+          <DeviceReadSetupData v="generate code" />
+          <DeviceSendData v="generate code" />
+          <DeviceRecvData v="generate code" />
+          <DeviceGetTransferStatus v="generate code" />
+          <DeviceCancelTransfer v="generate code" />
+          <HostGetPortState v="don&amp;apos;t generate code" />
+          <HostSetPortState v="don&amp;apos;t generate code" />
+          <HostGetFrameNumber v="don&amp;apos;t generate code" />
+          <HostGetMicroFrameNumber v="don&amp;apos;t generate code" />
+          <HostOpenPipe v="don&amp;apos;t generate code" />
+          <HostClosePipe v="don&amp;apos;t generate code" />
+          <HostSendSetup v="don&amp;apos;t generate code" />
+          <HostSendData v="don&amp;apos;t generate code" />
+          <HostRecvData v="don&amp;apos;t generate code" />
+          <HostGetTransferStatus v="don&amp;apos;t generate code" />
+          <HostCancelTransfer v="don&amp;apos;t generate code" />
+          <OtgRegisterDevice v="don&amp;apos;t generate code" />
+          <OtgRegisterHost v="don&amp;apos;t generate code" />
+          <OtgCmd v="don&amp;apos;t generate code" />
+          <SetSignal v="don&amp;apos;t generate code" />
+          <ConnectPin v="don&amp;apos;t generate code" />
+          <Main v="don&amp;apos;t generate code" />
+          <SetOperationMode v="don&amp;apos;t generate code" />
+          <GetDriverState v="don&amp;apos;t generate code" />
+        </Methods>
+        <Events>
+          <Event_module_name v="Events" />
+          <event name="OnDeviceReset" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceReset" />
+          </event>
+          <event name="OnDeviceSpeedDetect" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceSpeedDetect" />
+          </event>
+          <event name="OnDeviceSuspend" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceSuspend" />
+          </event>
+          <event name="OnDeviceResume" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceResume" />
+          </event>
+          <event name="OnDeviceSetupPacket" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceSetupPacket" />
+          </event>
+          <event name="OnDeviceSof" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceSof" />
+          </event>
+          <event name="OnDeviceError" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDeviceError" />
+          </event>
+          <event name="OnDevice1msTimer" v="generate code">
+            <Event_procedure_name v="USB_LDD_OnDevice1msTimer" />
+          </event>
+          <event name="OnHostDeviceDeattach" v="don&amp;apos;t generate code" />
+          <event name="OnHostResetRecovery" v="don&amp;apos;t generate code" />
+          <event name="OnHostResumeRecovery" v="don&amp;apos;t generate code" />
+          <event name="OnHostError" v="don&amp;apos;t generate code" />
+          <event name="OnHost1msTimer" v="don&amp;apos;t generate code" />
+          <event name="OnOtgDevice" v="don&amp;apos;t generate code" />
+          <event name="OnOtgHost" v="don&amp;apos;t generate code" />
+          <event name="OnOtgStateChange" v="don&amp;apos;t generate code" />
+          <event name="OnSignalChange" v="don&amp;apos;t generate code" />
+        </Events>
+      </inhrbean>
+      <Operation_system v="MQX_Lite" />
+      <group name="Device Descriptor">
+        <bcdUSB v="512" />
+        <Device_Class v="2" />
+        <Device_SubClass v="0" />
+        <Device_Protocol v="0" />
+        <MaxPacketSize v="32" />
+        <Vendor_ID v="5538" />
+        <Product_ID v="768" />
+        <bcdDevice v="2" />
+        <Manufacturer v="1" />
+        <Product v="2" />
+        <Serial_Number v="3" />
+        <NumConfigurations v="1" />
+        <group name="Configuration Descriptor">
+          <NumInterfaces v="2" />
+          <ConfigurationValue v="1" />
+          <Configuration_Index v="0" />
+          <Attributes v="Self Powered" />
+          <MaxPower v="50" />
+          <list name="Interfaces List" v="2">
+            <group name="Interface 0">
+              <InterfaceNumber v="0" />
+              <AlternateSetting v="0" />
+              <NumEndpoints v="1" />
+              <InterfaceClass v="2" />
+              <InterfaceSubClass v="2" />
+              <InterfaceProtocol v="0" />
+              <Interface_String_Descriptor_Index v="0" />
+              <list name="Endpoints List" v="1">
+                <group name="Endpoint 1">
+                  <EndpointNumber v="3" />
+                  <EndpointDirection v="IN" />
+                  <Transfer_Type v="Interrupt" />
+                  <Max_packet_size v="16" />
+                  <Interval v="0" />
+                </group>
+              </list>
+            </group>
+            <group name="Interface 1">
+              <InterfaceNumber v="1" />
+              <AlternateSetting v="0" />
+              <NumEndpoints v="2" />
+              <InterfaceClass v="10" />
+              <InterfaceSubClass v="0" />
+              <InterfaceProtocol v="0" />
+              <Interface_String_Descriptor_Index v="0" />
+              <list name="Endpoints List" v="2">
+                <group name="Endpoint 1">
+                  <EndpointNumber v="1" />
+                  <EndpointDirection v="IN" />
+                  <Transfer_Type v="Bulk" />
+                  <Max_packet_size v="16" />
+                  <Interval v="0" />
+                </group>
+                <group name="Endpoint 2">
+                  <EndpointNumber v="2" />
+                  <EndpointDirection v="OUT" />
+                  <Transfer_Type v="Bulk" />
+                  <Max_packet_size v="16" />
+                  <Interval v="0" />
+                </group>
+              </list>
+            </group>
+          </list>
+        </group>
+        <group name="String Descriptors">
+          <Language_ID v="2308" />
+          <list name="String Descriptor" v="2">
+            <String_1 v="FREESCALE SEMICONDUCTOR INC." />
+            <String_2 v="USB CDC DEVICE MQXLite PEx DEMO" />
+          </list>
+        </group>
+      </group>
+    </Properties>
+    <Methods>
+      <USB_Class_Init v="generate code" />
+      <USB_Class_DeInit v="generate code" />
+      <USB_Class_Send_Data v="generate code" />
+      <USB_Class_Periodic_Task v="generate code" />
+      <_usb_device_init v="generate code" />
+      <_usb_device_deinit v="generate code" />
+      <_usb_device_init_endpoint v="generate code" />
+      <_usb_device_deinit_endpoint v="generate code" />
+      <_usb_device_get_status v="generate code" />
+      <_usb_device_set_status v="generate code" />
+      <_usb_device_register_service v="generate code" />
+      <_usb_device_unregister_service v="generate code" />
+      <USB_Device_Call_Service v="generate code" />
+      <USB_Framework_Init v="generate code" />
+      <USB_Framework_DeInit v="generate code" />
+      <USB_Framework_Reset v="generate code" />
+      <USB_DCI_Bus_Reset_Handler v="generate code" />
+      <USB_DCI_Init v="generate code" />
+      <USB_DCI_DeInit v="generate code" />
+      <USB_DCI_Init_EndPoint v="generate code" />
+      <USB_DCI_Deinit_EndPoint v="generate code" />
+      <USB_DCI_Cancel_Transfer v="generate code" />
+      <USB_DCI_Stall_EndPoint v="generate code" />
+      <USB_DCI_Unstall_EndPoint v="generate code" />
+      <USB_DCI_Get_Setup_Data v="generate code" />
+      <USB_DCI_Get_Transfer_Status v="generate code" />
+      <USB_DCI_Recv_Data v="generate code" />
+      <USB_DCI_Send_Data v="generate code" />
+      <USB_DCI_Assert_Resume v="generate code" />
+      <USB_DCI_Set_Address v="generate code" />
+      <USB_DCI_OnDeviceSpeedDetect v="generate code" />
+      <USB_DCI_OnDeviceSuspend v="generate code" />
+      <USB_DCI_OnDeviceResume v="generate code" />
+      <USB_DCI_OnDeviceSetupPacket v="generate code" />
+      <USB_DCI_OnDeviceError v="generate code" />
+      <Clear_Mem v="generate code" />
+      <USB_Desc_Get_Descriptor v="generate code" />
+      <USB_Desc_Get_Interface v="generate code" />
+      <USB_Desc_Set_Interface v="generate code" />
+      <USB_Desc_Valid_Configation v="generate code" />
+      <USB_Desc_Valid_Interface v="generate code" />
+      <USB_Desc_Remote_Wakeup v="generate code" />
+      <USB_Desc_Get_Endpoints v="generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+</PE_PROJECT_SETTINGS_DOCUMENTATION>
+

@@ -1,0 +1,148 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Asm_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/common"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/common"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/compiler/gccarm"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/core/cortex_M0"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="6">
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/common"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/common"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/compiler/gccarm"</Line>
+        <Line>"${ProjDirPath}/MQX_sources/mqx_1_0/Kinetis/core/cortex_M0"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/iofiles"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_EntryPoint</name>
+      <value>__boot</value>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="MQX_sources\mqx_1_0\common\lwtimer.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Sources\usb_descriptor.h" FileDate="2012-10-19, 16:37:28" FileAge="1350639448218" FileType="4411" />
+      <File Name="Generated_Code\MQX1.h" FileDate="2012-10-19, 13:16:07" FileAge="1350627367908" FileType="4411" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_xcpt.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Sources\usb_descriptor.c" FileDate="2012-10-22, 10:05:15" FileAge="1350875115638" FileType="4411" />
+      <File Name="Generated_Code\MQX1.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="6" />
+      <File Name="Generated_Code\Cpu.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\Cpu.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="2" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_ticks.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_supp.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_supp.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\compiler\gccarm\comp.h" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\PE_LDD.h" FileDate="2012-10-22, 10:05:15" FileAge="1350875115716" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\Vectors.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\task_template_list.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="6" />
+      <File Name="Generated_Code\usb_dci.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\core\cortex_M0\dispatch.S" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\PE_LDD.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="2" />
+      <File Name="Generated_Code\task_template_list.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="6" />
+      <File Name="Generated_Code\usb_dci.c" FileDate="2012-10-19, 13:16:08" FileAge="1350627368002" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\mqxlite_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mqxlite_cnfg.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\usb_framework.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="Generated_Code\PE_Error.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="Generated_Code\usb_framework.c" FileDate="2012-09-20, 10:18:28" FileAge="1348111108000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\lwlog_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\idletask.c" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\usb_class.h" FileDate="2012-10-22, 10:05:15" FileAge="1350875115685" FileType="4411" CompNumb="11" />
+      <File Name="Generated_Code\usb_class.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\lwmsgq_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwevent.h" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\stack_st.c" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwlog.h" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwevent.c" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\SystemTimer1.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="MQX_sources\mqx_1_0\common\lwlog.c" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\IO_Map.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="Generated_Code\usb_devapi.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="Generated_Code\SystemTimer1.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\kinetis.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_cpu.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Sources\mqx_tasks.h" FileDate="2012-09-10, 16:23:20" FileAge="1347269000000" FileType="16896" />
+      <File Name="Sources\ProcessorExpert.c" FileDate="2012-10-19, 13:47:22" FileAge="1350629242362" FileType="128" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\stack_de.c" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="Sources\Events.h" FileDate="2012-09-10, 16:23:22" FileAge="1347269002000" FileType="16896" />
+      <File Name="MQX_sources\mqx_1_0\common\klog.h" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="Sources\mqx_tasks.c" FileDate="2012-10-19, 13:37:24" FileAge="1350628644758" FileType="16896" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\types.S" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\verif_enabled_config.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Sources\Events.c" FileDate="2012-09-10, 16:23:22" FileAge="1347269002000" FileType="16896" />
+      <File Name="MQX_sources\mqx_1_0\common\klog.c" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_cpudef.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_tisu.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_tiad.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\core\cortex_M0\psp_prv.S" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\sched.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\usb_driver.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_tinm.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwsem.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_macros.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwtimer_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mutex.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwsem.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mutex_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_unx.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mutex.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_inst.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_vtab.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\log.h" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\usb_device.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_utils.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\cortex.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwevent_prv.h" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_gkis.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\usb_device.c" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\queue.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\cortex.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Documentation\ProcessorExpert_Settings.xml" FileDate="2012-10-22, 10:05:15" FileAge="1350875115857" FileType="3072" />
+      <File Name="Generated_Code\usb_dciapi.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_str.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\qu_test.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_comp.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwsem_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\PE_Types.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\sc_irdyq.c" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\time_ticks.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\compiler\gccarm\asm_mac.h" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\int.c" FileDate="2012-09-10, 16:15:54" FileAge="1347268554000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwmsgq.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\USB_LDD.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\mem_zero.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Project_Settings\Debugger\MKL25Z128.mem" FileDate="2012-09-10, 16:08:08" FileAge="1347268088000" FileType="4411" CompNumb="2" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\compiler\gccarm\boot.S" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\lwmsgq.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\USB_LDD.c" FileDate="2012-10-22, 10:05:15" FileAge="1350875115607" FileType="4411" />
+      <File Name="Documentation\ProcessorExpert.txt" FileDate="2012-09-10, 16:23:22" FileAge="1347269002000" FileType="3072" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_cpudef.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\stack_bu.c" FileDate="2012-09-10, 16:15:58" FileAge="1347268558000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_pvta.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Project_Settings\Linker_Files\ProcessorExpert.ld" FileDate="2012-09-10, 16:23:22" FileAge="1347269002000" FileType="4" CompNumb="2" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_cnfg.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mqx_inc.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\task.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psplite.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\types.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="11" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psptypes.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\user_config.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mqxlite.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="Generated_Code\PE_Const.h" FileDate="2012-09-15, 14:04:18" FileAge="1347692658000" FileType="4411" />
+      <File Name="Documentation\ProcessorExpert_SIGNALS.txt" FileDate="2012-10-22, 10:11:10" FileAge="1350875470876" FileType="3072" />
+      <File Name="MQX_sources\mqx_1_0\common\lwtimer.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\common\mqxlite.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_prv.h" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\int_kisr.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+      <File Name="MQX_sources\mqx_1_0\Kinetis\common\psp_iinit.c" FileDate="2012-09-10, 16:15:56" FileAge="1347268556000" FileType="64" CompNumb="6" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>16</CodeGenReference>
+</CodeGenerationInfo>

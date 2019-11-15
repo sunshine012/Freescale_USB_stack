@@ -1,0 +1,53 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/iofiles"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd/inc"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code\PE_Const.h" FileDate="2013-03-15, 13:39:13" FileAge="1363329553860" FileType="4411" />
+      <File Name="Sources\Events.h" FileDate="2013-03-15, 13:38:31" FileAge="1363329511298" FileType="16896" />
+      <File Name="Generated_Code\usb_audio.h" FileDate="2013-03-15, 13:39:08" FileAge="1363329548282" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\Cpu.c" FileDate="2013-03-16, 15:34:39" FileAge="1363422879587" FileType="4411" CompNumb="4" />
+      <File Name="Sources\Events.c" FileDate="2013-03-15, 13:38:31" FileAge="1363329511313" FileType="16896" />
+      <File Name="Generated_Code\usb_class.h" FileDate="2013-03-15, 13:38:36" FileAge="1363329516079" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_descriptor.h" FileDate="2013-03-16, 15:34:39" FileAge="1363422879540" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\usb_audio.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323407" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\usb_dci.h" FileDate="2013-03-15, 15:32:03" FileAge="1363336323157" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_class.c" FileDate="2013-03-15, 13:39:19" FileAge="1363329559298" FileType="4411" CompNumb="34" />
+      <File Name="Sources\ProcessorExpert.c" FileDate="2013-03-15, 13:38:31" FileAge="1363329511329" FileType="128" />
+      <File Name="Generated_Code\usb_descriptor.c" FileDate="2013-03-16, 15:34:39" FileAge="1363422879493" FileType="4411" CompNumb="0" />
+      <File Name="Documentation\ProcessorExpert_Settings.xml" FileDate="2013-03-16, 15:34:39" FileAge="1363422879884" FileType="3072" />
+      <File Name="Project_Settings\Debugger\PK40N512.mem" FileDate="2013-03-15, 14:01:25" FileAge="1363330885798" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\PE_Types.h" FileDate="2013-03-15, 15:32:03" FileAge="1363336323501" FileType="4411" />
+      <File Name="Generated_Code\usb_dci.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323188" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_driver.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323376" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\PE_LDD.h" FileDate="2013-03-16, 15:34:39" FileAge="1363422879634" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\USB_LDD.h" FileDate="2013-03-15, 13:39:18" FileAge="1363329558626" FileType="4411" />
+      <File Name="Generated_Code\PE_Error.h" FileDate="2013-03-15, 13:39:08" FileAge="1363329548579" FileType="4411" />
+      <File Name="Documentation\ProcessorExpert_SIGNALS.txt" FileDate="2013-03-16, 15:34:39" FileAge="1363422879805" FileType="3072" />
+      <File Name="Generated_Code\PE_LDD.c" FileDate="2013-03-15, 13:39:18" FileAge="1363329558642" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\USB_LDD.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323048" FileType="4411" />
+      <File Name="Generated_Code\usb_framework.h" FileDate="2013-03-15, 15:32:03" FileAge="1363336323313" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\IO_Map.h" FileDate="2013-03-15, 13:39:07" FileAge="1363329547876" FileType="4411" />
+      <File Name="Generated_Code\types.h" FileDate="2013-03-15, 13:39:09" FileAge="1363329549767" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_device.h" FileDate="2013-03-15, 13:39:09" FileAge="1363329549485" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_framework.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323345" FileType="4411" CompNumb="34" />
+      <File Name="Project_Settings\Linker_Files\ProcessorExpert.lcf" FileDate="2013-03-15, 15:32:03" FileAge="1363336323610" FileType="4" CompNumb="0" />
+      <File Name="Documentation\ProcessorExpert.txt" FileDate="2013-03-16, 15:34:40" FileAge="1363422880055" FileType="3072" />
+      <File Name="Generated_Code\usb_device.c" FileDate="2013-03-15, 15:32:03" FileAge="1363336323079" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\Vectors.c" FileDate="2013-03-16, 15:34:39" FileAge="1363422879680" FileType="4411" CompNumb="0" />
+      <File Name="Generated_Code\Cpu.h" FileDate="2013-03-15, 15:32:03" FileAge="1363336323532" FileType="4411" CompNumb="4" />
+      <File Name="Generated_Code\usb_dciapi.h" FileDate="2013-03-15, 13:39:17" FileAge="1363329557845" FileType="4411" CompNumb="34" />
+      <File Name="Generated_Code\usb_devapi.h" FileDate="2013-03-15, 15:32:03" FileAge="1363336323110" FileType="4411" CompNumb="34" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>25</CodeGenReference>
+</CodeGenerationInfo>

@@ -1,0 +1,19 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export ProjDirPath=E:/Study_Files/USB/from NXP/Freescale USB Stack v4.1.1/Source/Host/examples/hid/mouse/cw10/kinetis_k70
+export HOST_COMMON_ESCAPED=E:/Study_Files/USB/from\ NXP/Freescale\ USB\ Stack\ v4.1.1/Source/Host/source/host_common
+export CWInstallLocationEnv=C:/Freescale/CW MCU v10.7
+export CLASSES_ESCAPED=E:/Study_Files/USB/from\ NXP/Freescale\ USB\ Stack\ v4.1.1/Source/Host/source/classes
+export HOST_COMMON=E:/Study_Files/USB/from NXP/Freescale USB Stack v4.1.1/Source/Host/source/host_common
+export SOURCE_ESCAPED=E:/Study_Files/USB/from\ NXP/Freescale\ USB\ Stack\ v4.1.1/Source/Host/source
+export SOURCE=E:/Study_Files/USB/from NXP/Freescale USB Stack v4.1.1/Source/Host/source
+export EXAMPLES=E:/Study_Files/USB/from NXP/Freescale USB Stack v4.1.1/Source/Host/examples
+export CLASSES=E:/Study_Files/USB/from NXP/Freescale USB Stack v4.1.1/Source/Host/source/classes
+export MCUToolsBaseDirEnv=$(CWInstallLocationEnv)/MCU
+export EXAMPLES_ESCAPED=E:/Study_Files/USB/from\ NXP/Freescale\ USB\ Stack\ v4.1.1/Source/Host/examples
+export ARM_ToolsDirEnv=$(CWInstallLocationEnv)/MCU/ARM_Tools/Command_Line_Tools

@@ -1,0 +1,37 @@
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-cwd include
+-enc ascii
+-i
+"$(EXAMPLES)/common"
+-i
+"$(EXAMPLES)/common/kinetis"
+-i
+"$(CLASSES)/hid"
+-i
+"$(EXAMPLES)/hid/mouse"
+-i
+"$(CLASSES)/hub"
+-i
+"$(ProjDirPath)"
+-i
+"$(SOURCE)/driver"
+-i
+"$(SOURCE)/driver/kinetis/ehci"
+-i
+"$(HOST_COMMON)"
+-i
+"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/EWL_C/include"
+-DLITTLE_ENDIAN
+-inline on
+-generic_symbol_names off
+-sdata 8
+-char signed
+-Cpp_Exceptions off
+-iso_templates on

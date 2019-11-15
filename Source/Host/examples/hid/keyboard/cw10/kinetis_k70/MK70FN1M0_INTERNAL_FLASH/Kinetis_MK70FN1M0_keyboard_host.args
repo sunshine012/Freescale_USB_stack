@@ -1,0 +1,47 @@
+"./Project_Settings/Startup/kinetis_sysinit_c.obj"
+"./Sources/app/sci_c.obj"
+"./Sources/app/printf_c.obj"
+"./Sources/app/poll_c.obj"
+"./Sources/app/hidkeyboard_c.obj"
+"./Sources/app/PIT1_kinetis_c.obj"
+"./Sources/bsp/vectors_c.obj"
+"./Sources/bsp/P3_c.obj"
+"./Sources/classes/hid/usb_host_hid_c.obj"
+"./Sources/classes/hub/usb_host_hub_sm_c.obj"
+"./Sources/classes/hub/usb_host_hub_c.obj"
+"./Sources/classes/usb_classes_c.obj"
+"./Sources/driver/ehci/ehci_utl_c.obj"
+"./Sources/driver/ehci/ehci_shut_c.obj"
+"./Sources/driver/ehci/ehci_main_c.obj"
+"./Sources/driver/ehci/ehci_iso_c.obj"
+"./Sources/driver/ehci/ehci_intr_c.obj"
+"./Sources/driver/ehci/ehci_cncl_c.obj"
+"./Sources/driver/ehci/ehci_bw_c.obj"
+"./Sources/driver/khci/khci_kinetis_c.obj"
+"./Sources/driver/usbsem_c.obj"
+"./Sources/driver/usbmsgq_c.obj"
+"./Sources/driver/usbevent_c.obj"
+"./Sources/driver/mem_util_c.obj"
+"./Sources/host_common/host_snd_c.obj"
+"./Sources/host_common/host_shut_c.obj"
+"./Sources/host_common/host_rcv_c.obj"
+"./Sources/host_common/host_main_c.obj"
+"./Sources/host_common/host_driver_c.obj"
+"./Sources/host_common/host_dev_list_c.obj"
+"./Sources/host_common/host_common_c.obj"
+"./Sources/host_common/host_cnl_c.obj"
+"./Sources/host_common/host_close_c.obj"
+"./Sources/host_common/host_ch9_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+"$(ProjDirPath)/prm/MK70FN1M0_flash.lcf"
+-main __thumb_startup
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-map
+-map keep
